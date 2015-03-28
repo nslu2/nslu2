@@ -4,6 +4,7 @@
 [submodule "redboot"]
 	path = redboot
 	url = https://github.com/nslu2/redboot.git
+	branch = master
 [submodule "user"]
 	path = user
 	url = https://github.com/nslu2/user.git
