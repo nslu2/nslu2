@@ -1,0 +1,5 @@
+OLD_VENDOR="Intel"
+OLD_PRODUCT="IXDP425"
+OLD_LINUXDIR="linux-2.4.x"
+OLD_LIBCDIR="glibc/build"
+OLD_LANGUAGE=""

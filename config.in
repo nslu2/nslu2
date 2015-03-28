@@ -1,0 +1,18 @@
+mainmenu_name 'uClinux Configuration'
+mainmenu_option next_comment
+comment 'Target Platform Selection'
+comment 'Choose a Vendor/Product combination.'
+choice 'Vendor/Product' "ADI/Coyote CONFIG_DEFAULTS_ADI_COYOTE \
+Intel/IXDP425 CONFIG_DEFAULTS_INTEL_IXDP425 \
+SnapGear/SE4000 CONFIG_DEFAULTS_SNAPGEAR_SE4000 \
+" SecureEdge/SecureEdgeVPN
+comment 'Kernel is linux-2.4.x'
+define_bool CONFIG_DEFAULTS_KERNEL_2_4 y
+choice 'Libc Version' "glibc CONFIG_DEFAULTS_LIBC_GLIBC \
+uC-libc CONFIG_DEFAULTS_LIBC_UC_LIBC \
+" uC-libc
+bool 'Default all settings (lose changes)'	CONFIG_DEFAULTS_OVERRIDE
+bool 'Customize Kernel Settings'			CONFIG_DEFAULTS_KERNEL
+bool 'Customize Vendor/User Settings'		CONFIG_DEFAULTS_VENDOR
+bool 'Update Default Vendor Settings'		CONFIG_DEFAULTS_VENDOR_UPDATE
+endmenu
