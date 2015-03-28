@@ -1,0 +1,30 @@
+[submodule "linux-2.4.x"]
+	path = linux-2.4.x
+	url = https://github.com/nslu2/linux-2.4.x.git
+[submodule "redboot"]
+	path = redboot
+	url = https://github.com/nslu2/redboot.git
+[submodule "user"]
+	path = user
+	url = https://github.com/nslu2/user.git
+[submodule "glibc"]
+	path = glibc
+	url = https://github.com/nslu2/glibc.git
+[submodule "Build/gcc-3.2.1"]
+	path = Build/gcc-3.2.1
+	url = https://github.com/nslu2/Build-gcc-3.2.1.git
+[submodule "lib/libm"]
+	path = lib/libm
+	url = https://github.com/nslu2/lib-libm.git
+[submodule "lib/zlib"]
+	path = lib/zlib
+	url = https://github.com/nslu2/lib-zlib.git
+[submodule "Build/binutils-2.13.2"]
+	path = Build/binutils-2.13.2
+	url = https://github.com/nslu2/Build-binutils-2.13.2.git
+[submodule "lib/libc"]
+	path = lib/libc
+	url = https://github.com/nslu2/lib-libc.git
+[submodule "toolchain"]
+	path = toolchain
+	url = https://github.com/nslu2/toolchain.git
