@@ -1,0 +1,6 @@
+:redboot.bin                           &00000000
+:zImage                         &00060000
+:ramdisk.gz                         &00160000
+%dongle.pid                             &0003FFFF &007FFFF0
+$SIZE                               &2000
+

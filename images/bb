@@ -1,0 +1,4 @@
+#!/bin/bash
+#cp /tftpboot/root/image.bin . -f
+./mipsBind image.par linux.bin
+
